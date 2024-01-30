@@ -130,6 +130,7 @@ int editorReadKey() {
       switch (seq[1]) {
         case 'H': return HOME_KEY;
         case 'F': return END_KEY;
+      }
     }
     return '\x1b';
   } else {
