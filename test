@@ -1,4 +1,3 @@
 def main():
-    if True:
-        if False:
-            pass
+	if True == True:
+		pass
